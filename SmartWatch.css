@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Sources Sans Pro;
+}
+header {
+    background-color: white;
+}
+img {
+    width: 450px;
+    height: 120px;
+    margin-left: 400px;
+    transform: translateX(50%,-50%);
+}
+#timestamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: black;
+    padding: 58px;
+    border-radius: 8px;
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+#square {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border: 8px solid gray;
+    margin-left: 100px;
+    margin-top: 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    overflow: hidden; /* Ensure child elements do not overflow */
+}
+#button {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 4px;
+    right: -20px; /* Adjust the position to the right of the watch */
+    top: 40%; /* Center vertically */
+    transform: translateY(-50%);
+}
+#strap1 {
+    margin-top: 3px;
+    margin-left: 135px;
+    width: 85px;
+    height: 175px;
+    border: 0.1px solid;
+    background-color: purple;
+    border-radius: 5px;
+    transform: perspective(200px) rotateX(50deg);
+}
+#strap2 {
+    margin-left: 135px;
+    width: 85px;
+    height: 175px;
+    border: 0.1px solid;
+    background-color: purple;
+    border-radius: 5px;
+    transform: perspective(200px) rotateX(-50deg);
+}
+#Ventus{
+    position: absolute;
+    top: 150px;
+    left: 360px;
+}
+p{
+    font-size: large;
+}
+#black{
+    width: 50px;
+    height: 40px;
+    background-color: #23211f;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+#orange{
+    width: 50px;
+    height: 40px;
+    background-color: #ca3d22;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+#darkblue{
+    width: 50px;
+    height: 40px;
+    background-color: #565681;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+#purple{
+    width: 50px;
+    height: 40px;
+    background-color: #8a5362;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+#timebtn{
+    background-color: rgba(128, 128, 128, 0.457);
+    padding: 5px;
+    width: 79px;
+    margin-right: 5px;
+}
+#heartrate{
+    background-color: rgba(128, 128, 128, 0.457);
+    padding: 5px;
+    width: 90px;
+    margin-right: 5px;
+}
+#buynow{
+    position: absolute;
+    top: 520px;
+    left: 360px;
+    background-color: orange;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: large;
+}
